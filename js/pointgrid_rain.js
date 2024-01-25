@@ -57,7 +57,7 @@ function draw() {
       point.y = lerp(point.y, point.originalY, 0.2);
     }
 
-    ellipse(point.x, point.y, 1, 1); // Draw each point
+    ellipse(point.x, point.y, 2, 2); // Draw each point
   }
 
   // Optional: Remove old ripples
