@@ -5,7 +5,7 @@ let ripples = [];
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  spacing = 15; // Set the spacing between points
+  spacing = 25; // Set the spacing between points
   cols = width / spacing; // Calculate the number of columns
   rows = height / spacing; // Calculate the number of rows
   initializePoints();
@@ -57,7 +57,7 @@ function draw() {
       point.y = lerp(point.y, point.originalY, 0.2);
     }
 
-    ellipse(point.x, point.y, 2, 2); // Draw each point
+    ellipse(point.x, point.y, 3, 3); // Draw each point
   }
 
   // Optional: Remove old ripples
