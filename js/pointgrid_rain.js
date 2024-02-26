@@ -23,10 +23,10 @@ function createRandomRipple() {
 
 
 function draw() {
-  background(0); // Set background color to black
+  background(255); // Set background color to black
 
   noStroke(); // Remove the outline of the points
-  fill(255); // Set the fill color for the points to white
+  fill(0); // Set the fill color for the points to white
 
   for (let point of points) {
     let totalDisplacementX = 0;
